@@ -1,0 +1,47 @@
+.main-wrapper{
+    margin-top: 30px;
+}
+.page-title {
+    text-align: center;
+}
+ .registration-form{
+    width: 800px;
+    margin: auto;
+ }
+
+ /* #background{
+    background-image: linear-gradient(to bottom left, rgb(45, 15, 15), rgb(70, 70, 70));
+    
+ } */
+ .css-selector {
+    background: linear-gradient(1deg, #35d2aa, #d25735, #6835d2);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 35s ease infinite;
+    -moz-animation: AnimationName 35s ease infinite;
+    animation: AnimationName 35s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+
+ h1,label{
+
+color: antiquewhite;
+ }
+ /* .valid-feedback, .invalid-feedback{
+    display: block;
+ } */
